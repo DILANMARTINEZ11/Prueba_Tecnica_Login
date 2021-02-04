@@ -1,0 +1,13 @@
+NOTAS : 
+
+1.  
+
+GET - /Usuarios = Muestra los Usuarios.
+
+GET /add = Muestra el formulario de creacion   ->   POST - /crear-usuario = LLeva los datos del formulario a la base de datos y crea el usuario. 
+
+GET /Usuario/id  = Muestra los datos del usuario correspondientes al ID.
+
+GET / = Muestra el formulario para Iniciar sesión  -> POST /login = LLeva los datos del formulario y los consulta para verificar que el usuario en exita o no.  
+
+DELETE /usuario/id = Elimina los datos del usuario correspondientes al ID.
